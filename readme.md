@@ -11,7 +11,7 @@ $ npm install @antoineneff/http-status-codes
 ## Usage
 
 ```js
-const status = require('http-status-codes')
+const status = require('@antoineneff/http-status-codes')
 
 status(200)
 // { "code": 200,
