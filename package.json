@@ -1,0 +1,24 @@
+{
+  "name": "@antoineneff/http-status-codes",
+  "version": "0.0.1",
+  "description": "Get HTTP status codes description",
+  "author": "Antoine Neff <antoineneff@me.com>",
+  "repository": "antoineneff/http-status-codes",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "codes.json"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "http",
+    "status",
+    "codes"
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
