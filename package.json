@@ -1,6 +1,6 @@
 {
   "name": "@antoineneff/http-status-codes",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Get HTTP status codes description",
   "author": "Antoine Neff <antoineneff@me.com>",
   "repository": "antoineneff/http-status-codes",
