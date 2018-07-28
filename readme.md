@@ -13,10 +13,12 @@ $ npm install @antoineneff/http-status-codes
 ```js
 const status = require('@antoineneff/http-status-codes')
 
-status(200)
-// { "code": 200,
-//   "message": "OK",
-//   "description": "The request has succeeded. The meaning of a success varies depending on the HTTP method." }
+// You can use a number or a string
+status('200').code // 200
+status(200).message // "OK"
+status(200).description // "The request has succe..."
+
+status(200) // All of the above
 ```
 
 ## Resources
